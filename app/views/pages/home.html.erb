@@ -1,2 +1,19 @@
-<h1>Welcome to my kickass app!</h1>
-<p>Sign up <%= link_to "if you dare!", "http://google.com" %>.</p>
+
+<div class="jumbotron">
+	<h1>Welcome to Mike's favorites page!</h1>
+	<p>Favorite Sites Launch</p>
+	<p><%= link_to "E-mail", "http://gmail.com", class: "btn btn-primary" %></p>
+	<%= link_to "Play Chess", "http://chess.com", class: "btn btn-primary" %></p>
+	<%= link_to "Job Search", "http://gjc.org/gjc-cgi/listjobs.pl", class: "btn btn-primary" %></p>
+	<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    Coding Practice <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><%= link_to "Codecademy", "http://codecademy.com" %></li>
+    <li><%= link_to "OneMonthRails", "http://onemonth.com" %></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+</div>
